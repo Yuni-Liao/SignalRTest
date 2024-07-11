@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "SignalR";
+}
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.6/signalr.min.js"></script>
+<link rel="stylesheet" href="~/css/site.css" />
+
+<div class="contanier">
+    <p>User:</p><input id="name" type="text">
+    <select id="group">
+        <option>Cat ChatRoom</option>
+        <option>Dog ChatRoom</option>
+    </select>
+    <button type="button" class="btn" id="addGroupBtn">Join</button>
+    <br>
+    <div id="msgDiv">Room:</div>
+    <p>Message:</p>
+    <input id="msg" type="text">
+    <button type="Button" class="btn" id="submitGroupBtn">送出給群組</button>
+    <button type="Button" class="btn" id="submitAllBtn">送出給所有人</button>
+    <br>
+</div>
+
+<script src="~/js/chat.js"></script>

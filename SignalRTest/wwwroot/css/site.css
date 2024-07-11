@@ -1,0 +1,59 @@
+* {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.contanier {
+    margin: 3% auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+    .contanier .btn {
+        width: 100px;
+        height: 30px;
+        background-color: #ad5555;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+select {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn:hover {
+    background-color: #ad3e3e;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#msg {
+    width: 95%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#msgDiv {
+    padding: 5px;
+    width: 93.5%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow-y: auto;
+}
