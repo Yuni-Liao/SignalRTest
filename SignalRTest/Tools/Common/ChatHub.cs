@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 
-namespace YUNI.Tools.Common
+namespace SignalRTest.Tools.Common
 {
     /// <summary>
     /// 這邊所定義的方法，可在 JavaScript 中調用

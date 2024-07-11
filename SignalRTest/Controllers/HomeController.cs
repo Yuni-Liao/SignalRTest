@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using YUNI.Models;
 
-namespace YUNI.Controllers
+namespace SignalRTest.Controllers
 {
     public class HomeController : Controller
     {
